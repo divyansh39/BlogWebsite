@@ -1,0 +1,48 @@
+.register{
+    height:calc(100vh - 50px);
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    background-image: url("https://www.reachabovemedia.com/wp-content/uploads/2017/11/web-design-2906159_960_720.jpg");
+    align-items: center;
+    background-size: cover;
+
+}
+.registerTitle{
+    font-size: 50px;
+    font-weight:bold;
+}
+.registerForm{
+    flex-direction: column;
+    margin-top:20px;
+    display: flex;
+}
+.registerForm label{
+    margin:10px 0;
+    font-weight:bold;
+
+}
+.registerForm input{
+    padding:10px;
+    background-color:white;
+    border:none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+}
+.registerLoginButton{
+    position:absolute;
+    top:60px;right:30px;
+    padding:10px;
+    color:white;
+    background-color:black;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}

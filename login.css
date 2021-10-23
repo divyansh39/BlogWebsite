@@ -1,0 +1,48 @@
+.login{
+    height:calc(100vh - 50px);
+    justify-content:center;
+    display:flex;
+    flex-direction: column;
+    background-image: url("https://cdn.wallpapersafari.com/90/58/JV9Hzu.jpg");
+    align-items: center;
+    background-size: cover;
+
+}
+.loginTitle{
+    font-size: 50px;
+    font-weight:bold;
+}
+.loginForm{
+    flex-direction: column;
+    margin-top:20px;
+    display: flex;
+}
+.loginForm label{
+    margin:10px 0;
+    font-weight:bold;
+
+}
+.loginForm input{
+    padding:10px;
+    background-color:white;
+    border:none;
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    border:none;
+    border-radius:10px;
+    padding:10px;
+}
+.registerRegisterButton{
+    position:absolute;
+    top:60px;right:30px;
+    padding:10px;
+    color:white;
+    background-color:black;
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
